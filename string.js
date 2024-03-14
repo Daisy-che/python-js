@@ -1,6 +1,13 @@
 //Write a JavaScript expression using the modulus operator to find the remainder when 15 is divided by 4.
 let a=15%4;
 console.log(a)
+
+//What is the difference between the "==" and "===" operators in JavaScript? 
+//===strictlyEqualTo
+let strictlyEqualTo=a===4
+let looselyEqualTo=a==4
+console.log(looselyEqualTo)
+console.log(strictlyEqualTo)
 //Write a JavaScript expression to concatenate two strings.
 let b ="Daisy";
 let greeting="hello";
